@@ -1,0 +1,8 @@
+title: Mermaid & PlantUML Diagrams – Sharp Export for Confluence
+description: Turn Mermaid and PlantUML text into sharp diagrams on Confluence Cloud pages, including PDF and Word exports
+theme: jekyll-theme-cayman
+show_downloads: false
+exclude:
+  - _templates
+  - FACTS.md
+  - AGENTS.md
