@@ -28,11 +28,11 @@ into diagrams on the page, with sharp images in PDF and Word exports.
 Submitted to the Atlassian Marketplace (under review), priced per user, free for up to 10 users, with a
 30-day free trial for larger sites.
 
-<!-- Demo video placeholder: when assets/demo.mp4 and assets/demo-poster.jpg are ready, uncomment:
-<video controls poster="assets/demo-poster.jpg" width="100%">
+## Demo (about 2 minutes)
+
+<video controls preload="none" poster="assets/demo-poster.jpg" width="100%">
   <source src="assets/demo.mp4" type="video/mp4">
 </video>
--->
 
 ## Documentation
 
