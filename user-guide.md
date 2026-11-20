@@ -57,6 +57,8 @@ exports of the page use that PNG, at the diagram's normal size.
 - A diagram that was never saved in the editor is drawn live in PDF exports and appears as its source text in
   Word exports.
 - After a diagram's text is changed outside the editor, open and save it once to refresh the export image.
+- Confluence's Word export is a `.doc` file made for Microsoft Word. LibreOffice and some other editors show
+  it as raw code: see [Troubleshooting](#troubleshooting).
 
 ## Paste a link
 
@@ -86,6 +88,10 @@ diagrams. The change is saved as a new page version made by the user.
   blocks inside expands and tables.
 - **License notice instead of a diagram:** renew the Marketplace license; content is kept in a collapsible
   block until then.
+- **The Word export opens as code** (lines such as `Content-Type:` and `<html>`): Confluence exports to Word
+  as a web page saved with a `.doc` extension, which Microsoft Word opens as a document. LibreOffice and some
+  other editors cannot read this format. Open the file in Microsoft Word, or export the page to PDF instead.
+  This happens with any Confluence page, with or without diagrams.
 
 If the problem remains, see [Support](https://steadyseam.com/support.html#mermaid-plantuml-diagrams).
 
